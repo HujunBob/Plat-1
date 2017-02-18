@@ -1,0 +1,16 @@
+C:\Users\HuJun123\Desktop\plat\ProOperator\bin\Debug\ProOperator.dll
+C:\Users\HuJun123\Desktop\plat\ProOperator\bin\Debug\ProOperator.pdb
+C:\Users\HuJun123\Desktop\plat\ProOperator\obj\Debug\ProOperator.dll
+C:\Users\HuJun123\Desktop\plat\ProOperator\obj\Debug\ProOperator.pdb
+C:\Users\HuJun123\Desktop\plat\plat\bin\Debug\dll\ProOperator.dll
+C:\Users\HuJun123\Desktop\plat\plat\bin\Debug\dll\ProOperator.pdb
+E:\Csharp\plat\plat\bin\Debug\dll\ProOperator.dll
+E:\Csharp\plat\plat\bin\Debug\dll\ProOperator.pdb
+E:\Csharp\plat\ProOperator\obj\Debug\ProOperator.csprojResolveAssemblyReference.cache
+E:\Csharp\plat\ProOperator\obj\Debug\ProOperator.dll
+E:\Csharp\plat\ProOperator\obj\Debug\ProOperator.pdb
+H:\plat1\plat\bin\Debug\dll\ProOperator.dll
+H:\plat1\plat\bin\Debug\dll\ProOperator.pdb
+H:\plat1\ProOperator\obj\Debug\ProOperator.csprojResolveAssemblyReference.cache
+H:\plat1\ProOperator\obj\Debug\ProOperator.dll
+H:\plat1\ProOperator\obj\Debug\ProOperator.pdb

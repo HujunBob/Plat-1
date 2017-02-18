@@ -1,0 +1,15 @@
+C:\Users\HuJun123\Desktop\plat\plat\bin\Debug\dll\ProFactory.dll
+C:\Users\HuJun123\Desktop\plat\plat\bin\Debug\dll\ProFactory.pdb
+C:\Users\HuJun123\Desktop\plat\ProFactory\obj\Debug\ProFactory.dll
+C:\Users\HuJun123\Desktop\plat\ProFactory\obj\Debug\ProFactory.pdb
+C:\Users\HuJun123\Desktop\plat\ProFactory\obj\Debug\ProFactory.csprojResolveAssemblyReference.cache
+E:\Csharp\plat\plat\bin\Debug\dll\ProFactory.dll
+E:\Csharp\plat\plat\bin\Debug\dll\ProFactory.pdb
+E:\Csharp\plat\ProFactory\obj\Debug\ProFactory.csprojResolveAssemblyReference.cache
+E:\Csharp\plat\ProFactory\obj\Debug\ProFactory.dll
+E:\Csharp\plat\ProFactory\obj\Debug\ProFactory.pdb
+H:\plat1\plat\bin\Debug\dll\ProFactory.dll
+H:\plat1\plat\bin\Debug\dll\ProFactory.pdb
+H:\plat1\ProFactory\obj\Debug\ProFactory.csprojResolveAssemblyReference.cache
+H:\plat1\ProFactory\obj\Debug\ProFactory.dll
+H:\plat1\ProFactory\obj\Debug\ProFactory.pdb
