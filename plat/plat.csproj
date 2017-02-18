@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F86F04E9-DB50-4EB8-929D-FB6F9EF21B44}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>plat.function2</RootNamespace>
+    <AssemblyName>plat</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.ManagedDataAccess, Version=4.121.2.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Oracle.ManagedDataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="ProFactory">
+      <HintPath>bin\Debug\dll\ProFactory.dll</HintPath>
+    </Reference>
+    <Reference Include="ProOperator">
+      <HintPath>bin\Debug\dll\ProOperator.dll</HintPath>
+    </Reference>
+    <Reference Include="SourceGrid">
+      <HintPath>..\..\Grid\Grid\bin\Debug\SourceGrid.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function1\DataIO.cs" />
+    <Compile Include="function1\FormNewStation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function1\FormNewStation.Designer.cs">
+      <DependentUpon>FormNewStation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function1\FormStationInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function1\FormStationInfo.Designer.cs">
+      <DependentUpon>FormStationInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function1\Stationmanage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function1\Stationmanage.Designer.cs">
+      <DependentUpon>Stationmanage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function2\cfgForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function2\cfgForm.Designer.cs">
+      <DependentUpon>cfgForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function2\DataLayer.cs" />
+    <Compile Include="function2\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="function2\Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="function2\INIOperationClass.cs" />
+    <Compile Include="LongPlan\FormCompasion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LongPlan\FormCompasion.Designer.cs">
+      <DependentUpon>FormCompasion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LongPlan\Frame_LongPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="LongPlan\Frame_LongPlan.Designer.cs">
+      <DependentUpon>Frame_LongPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mid_plan\Form_MidSimu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mid_plan\Form_MidSimu.Designer.cs">
+      <DependentUpon>Form_MidSimu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mid_plan\Frame_MidPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Mid_plan\Frame_MidPlan.Designer.cs">
+      <DependentUpon>Frame_MidPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Short_plan\Frame_ShortPlan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Short_plan\Frame_ShortPlan.Designer.cs">
+      <DependentUpon>Frame_ShortPlan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Short_plan\MySourceGridStyle.cs" />
+    <Compile Include="Short_plan\Short_plan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Short_plan\Short_plan.Designer.cs">
+      <DependentUpon>Short_plan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Short_plan\WaitForm1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Short_plan\WaitForm1.Designer.cs">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function1\FormNewStation.resx">
+      <DependentUpon>FormNewStation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function1\FormStationInfo.resx">
+      <DependentUpon>FormStationInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function1\Stationmanage.resx">
+      <DependentUpon>Stationmanage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function2\cfgForm.resx">
+      <DependentUpon>cfgForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="function2\Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LongPlan\FormCompasion.resx">
+      <DependentUpon>FormCompasion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LongPlan\Frame_LongPlan.resx">
+      <DependentUpon>Frame_LongPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mid_plan\Form_MidSimu.resx">
+      <DependentUpon>Form_MidSimu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mid_plan\Frame_MidPlan.resx">
+      <DependentUpon>Frame_MidPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Short_plan\Frame_ShortPlan.resx">
+      <DependentUpon>Frame_ShortPlan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Short_plan\Short_plan.resx">
+      <DependentUpon>Short_plan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Short_plan\WaitForm1.resx">
+      <DependentUpon>WaitForm1.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\数据\TextFile1.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
